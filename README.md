@@ -1,6 +1,6 @@
 
 
-              E-Commerce-Sales-Analysis-Excel
+              # E-Commerce-Sales-Analysis-Excel
 
 This project presents an in-depth analysis of an online store’s sales transactions from January 2023 through June 2025. Using Excel as the primary analytical tool, I transformed raw order data into a dynamic dashboard that reveals key performance indicators, sales trends, product performance, and operational efficiency. Here’s a professional and engaging README.md file tailored for GitHub repository showcasing E-Commerce-Sales-Analysis-Excel presentation.
 
