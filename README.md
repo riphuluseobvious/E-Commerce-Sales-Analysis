@@ -167,7 +167,7 @@ Users can filter results by:
 
 The interactive Excel dashboard consolidates KPIs, revenue trends, product performance, and order status analysis.
 
-![Dashboard Screenshot](https://imgur.com/a/obi-h0i5j6c.png)
+![Dashboard Screenshot](https://i.imgur.com/Ssqztv4.png)
 
 # 🔍 Key Insights
 
