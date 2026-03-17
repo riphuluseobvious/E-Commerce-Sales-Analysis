@@ -1,38 +1,30 @@
-<h1 align="center"> 📊 E-Commerce Sales Data Analysis </h1>
+<h1 align="center">📊 E-Commerce Sales Data Analysis Dashboard (Excel Project)</h1>
 
 ---
 
 # 📌 Project Overview
 
-This project analyzes **e-commerce order transaction data** to uncover key revenue drivers, product performance, and customer purchasing trends.
+This project analyzes **e-commerce sales transaction data** to uncover key business insights related to product performance, customer payment behavior, marketing effectiveness, and overall revenue trends.
 
-Using **Microsoft Excel for data cleaning, analysis, and visualization**, the project transforms raw order data into actionable business insights through an **interactive dashboard**.
+Using **Microsoft Excel**, the project demonstrates a complete **end-to-end data analytics workflow**, starting from raw data cleaning and transformation to pivot table analysis, data visualization, and dashboard development.
 
-The analysis focuses on identifying:
+The final deliverable is an **interactive Excel dashboard** that allows stakeholders to monitor business performance through key metrics and charts.
 
-• Best-selling products  
-• Revenue trends over time  
-• Payment method preferences  
-• Marketing channel performance  
-• Order status distribution (Delivered, Returned, Cancelled)  
-
-All financial values are represented in **South African Rand (ZAR)**.
+All financial values in this analysis are presented in **South African Rand (ZAR)**.
 
 ---
 
 # 🎯 Business Problem
 
-E-commerce companies generate large volumes of transactional data but often struggle to convert this data into actionable insights.
-
-Without structured analytics, organizations may struggle to:
+E-commerce businesses generate large amounts of transaction data daily. Without structured analysis, it becomes difficult for organizations to:
 
 • Identify top-performing products  
-• Understand which marketing channels drive revenue  
-• Analyze payment method preferences  
-• Monitor delivery, return, and cancellation rates  
-• Track revenue performance over time  
+• Understand customer payment preferences  
+• Evaluate marketing channel performance  
+• Monitor order fulfillment performance  
+• Track monthly sales trends  
 
-This project demonstrates how **data analytics using Excel can transform raw order data into business intelligence**.
+This project demonstrates how **Excel analytics tools can transform raw sales data into actionable business insights**.
 
 ---
 
@@ -40,11 +32,13 @@ This project demonstrates how **data analytics using Excel can transform raw ord
 
 The main objectives of this project are:
 
-✔ Clean and prepare raw order data for analysis  
-✔ Perform exploratory data analysis (EDA)  
-✔ Identify revenue drivers and product trends  
+✔ Clean and structure raw e-commerce transaction data  
+✔ Perform exploratory data analysis using Pivot Tables  
+✔ Identify key sales trends and revenue drivers  
 ✔ Evaluate marketing channel performance  
-✔ Develop an interactive Excel dashboard  
+✔ Analyze customer payment behavior  
+✔ Monitor order status performance  
+✔ Build an interactive Excel dashboard for business reporting  
 
 ---
 
@@ -52,34 +46,31 @@ The main objectives of this project are:
 
 | Tool | Purpose |
 |-----|--------|
-| Microsoft Excel | Data Cleaning |
-| Excel Formulas | Data Transformation |
+| Microsoft Excel | Data Cleaning & Analysis |
 | Pivot Tables | Data Aggregation |
-| Excel Charts | Data Visualization |
-| Excel Dashboard | Business Reporting |
+| Excel Formulas | Data Transformation |
+| Data Visualization | Charts & Dashboard |
+| Excel Slicers | Interactive Filters |
 
 ---
 
 # 🗂 Dataset Description
 
-The dataset contains **e-commerce transaction records** with the following fields:
+The dataset contains **1,200 e-commerce transactions** across multiple products and marketing channels.
 
 | Column | Description |
 |------|-------------|
 | OrderID | Unique order identifier |
-| Date | Date of purchase |
+| OrderDate | Date of purchase |
 | CustomerID | Unique customer identifier |
 | Product | Product purchased |
 | Quantity | Number of items purchased |
 | UnitPrice | Price per product |
-| ShippingAddress | Delivery address |
-| PaymentMethod | Payment type used |
-| OrderStatus | Order outcome (Delivered, Returned, etc.) |
-| TrackingNumber | Shipment tracking ID |
-| ItemsInCart | Number of items in cart |
-| CouponCode | Discount code used |
-| ReferralSource | Marketing source |
 | TotalPrice | Total order value |
+| PaymentMethod | Payment method used |
+| OrderStatus | Status of the order |
+| ReferralSource | Marketing channel source |
+| Coupon | Discount coupon used |
 
 💰 All financial values are represented in **South African Rand (ZAR)**.
 
@@ -89,88 +80,73 @@ The dataset contains **e-commerce transaction records** with the following field
 
 The project follows a structured analytics workflow:
 
-1️⃣ Data Import  
-2️⃣ Data Cleaning  
-3️⃣ Feature Engineering  
-4️⃣ Exploratory Data Analysis  
-5️⃣ Pivot Table Analysis  
-6️⃣ Data Visualization  
-7️⃣ Excel Dashboard Development  
-8️⃣ Business Insight Generation  
+1️⃣ Data Cleaning  
+2️⃣ Feature Engineering  
+3️⃣ Exploratory Data Analysis  
+4️⃣ Pivot Table Analysis  
+5️⃣ Chart Development  
+6️⃣ Dashboard Design  
+7️⃣ Business Insight Generation  
 
 ### Data Pipeline
 
-Raw Data → Data Cleaning → Feature Engineering → Pivot Analysis → Excel Dashboard → Business Insights
+Raw Data → Data Cleaning → Pivot Table Analysis → Charts → Excel Dashboard → Business Insights
 
 ---
 
 # 📈 Key Performance Indicators (KPIs)
 
-The dashboard highlights the following key business metrics:
-
 | KPI | Value |
 |----|------|
-| 💰 Total Revenue | **R 30,666.67** |
-| 🧾 Total Orders | **27** |
-| 📦 Total Items Sold | **80** |
-| 💳 Average Order Value | **R 1,136.54** |
-| 🚚 Delivery Rate | **25.9%** |
+| 💰 Total Revenue | **R 1,264,762** |
+| 🧾 Total Orders | **1200** |
+| 📦 Total Units Sold | **3,535** |
+| 💳 Average Order Value | **R 1,054** |
 
 ---
 
-# 🔄 Data Cleaning & Preparation
+# 💻 Excel Data Analysis
 
-Data cleaning was performed in **Microsoft Excel** to ensure accuracy and consistency.
+Pivot tables were used to analyze the dataset across multiple business dimensions.
 
-### Cleaning Steps
+## Key Analyses Performed
 
-✔ Removed duplicate records  
-✔ Standardized product and payment method text formatting  
-✔ Replaced missing coupon values with **“No Coupon”**  
-✔ Recalculated revenue using quantity and unit price  
-✔ Converted financial values to **ZAR currency format**
-
----
-
-# 📊 Data Analysis
-
-Excel **Pivot Tables** were used to perform business performance analysis.
-
-### Key Analyses Performed
-
-✔ Revenue by product  
-✔ Quantity sold by product  
-✔ Revenue by payment method  
-✔ Marketing channel performance  
-✔ Order status distribution  
-✔ Monthly revenue trends  
+✔ Product performance analysis  
+✔ Payment method distribution  
+✔ Marketing channel revenue performance  
+✔ Order status breakdown  
+✔ Monthly revenue trend analysis  
+✔ Coupon effectiveness analysis  
 
 ---
 
 # 📊 Excel Dashboard
 
-An interactive dashboard was developed in **Microsoft Excel** to visualize business performance.
+An interactive dashboard was developed in **Microsoft Excel** to visualize business performance metrics and trends.
 
 ## Dashboard Features
 
 • KPI summary cards  
-• Revenue by product chart  
-• Monthly revenue trend  
+• Monthly revenue trend chart  
+• Product revenue comparison  
 • Payment method distribution  
-• Marketing channel revenue  
+• Marketing channel revenue analysis  
 • Order status distribution  
+• Coupon performance analysis  
 
 ---
 
-## 🎛 Interactive Filters (Slicers)
+# 🎛 Interactive Filters (Slicers)
 
-Users can filter dashboard results by:
+The dashboard includes filters to allow users to explore the data dynamically.
 
-• Year  
+Users can filter results by:
+
 • Product  
 • Payment Method  
 • Referral Source  
 • Order Status  
+• Year  
 
 ---
 
@@ -178,116 +154,167 @@ Users can filter dashboard results by:
 
 | Analysis | Chart Type |
 |--------|-------------|
-| Revenue by Product | Horizontal Bar Chart |
+| Product Revenue | Clustered Bar Chart |
 | Monthly Revenue Trend | Line Chart |
 | Payment Method Distribution | Pie Chart |
-| Marketing Channel Revenue | Column Chart |
-| Order Status Distribution | Donut Chart |
+| Marketing Channel Performance | Column Chart |
+| Order Status Breakdown | Donut Chart |
+| Coupon Revenue Analysis | Bar Chart |
 
 ---
 
 # 🖥 Dashboard Preview
 
-E-Commerce Sales Dashboard showing KPIs, revenue trends, and product performance.
+Excel Dashboard showing KPIs, revenue trends, and marketing performance.
 
-![Dashboard Screenshot](https://i.imgur.com/RdEf5Qb.png)
+![Dashboard Screenshot](INSERT_IMAGE_LINK_HERE)
+
+*(Upload your Excel dashboard screenshot and replace the link above.)*
 
 ---
 
 # 🔍 Key Insights
 
-The analysis revealed several important insights:
+Based on the Excel pivot table analysis, the following key insights were identified:
 
-### 1. Top Revenue Product  
-📦 Product: **Tablet**  
-💰 Revenue Generated: **R 7,092.31**
+### 1️⃣ Highest Revenue Product
+🏆 Product: **Chair**  
+💰 Revenue Generated: **R195,620**  
+🛒 Units Sold: **562**
 
-💡 Tablets generate the highest revenue due to higher price points and multiple large orders.
-
----
-
-### 2. Highest Sales Channel  
-📢 Channel: **Instagram & Google**
-
-💡 Social media and search traffic drive a significant portion of online sales.
+💡 Observation: Chairs generated the highest revenue and sales volume, indicating strong product demand.
 
 ---
 
-### 3. Most Used Payment Method  
-💳 Payment Method: **Credit Card**
+### 2️⃣ Lowest Revenue Product
+📦 Product: **Phone**  
+💰 Revenue Generated: **R151,722**
 
-💡 Credit cards are the most frequently used payment method, indicating customer preference for secure online payments.
-
----
-
-### 4. Order Status Performance  
-📦 Delivered Orders: **7**
-
-💡 A significant portion of orders are still **pending or shipped**, suggesting potential improvements in logistics.
+💡 Observation: Phone sales generated the lowest revenue among the product categories, suggesting potential for improved promotion or pricing strategy.
 
 ---
 
-### 5. Product Demand Pattern  
-📈 Products such as **Monitors, Tablets, and Laptops** contribute the majority of revenue.
+### 3️⃣ Most Used Payment Method
+💳 Payment Method: **Online Payments**  
+🧾 Orders: **258**
 
-💡 These high-value products drive business profitability.
+💡 Observation: Online payments are the most commonly used method, reflecting strong customer preference for digital transactions.
 
 ---
 
-### 6. Marketing Channel Impact  
-📢 Referral sources such as **Instagram, Google, and Email** significantly influence purchase behavior.
+### 4️⃣ Highest Revenue Payment Method
+💳 Payment Method: **Credit Card**  
+💰 Revenue Generated: **R263,848**
 
-💡 Digital marketing plays a critical role in customer acquisition.
+💡 Observation: Credit cards generate the highest revenue, indicating higher average transaction values for this payment type.
+
+---
+
+### 5️⃣ Top Marketing Channel
+📢 Channel: **Instagram**  
+💰 Revenue Generated: **R275,285**  
+🧾 Orders: **259**
+
+💡 Observation: Instagram is the most effective marketing channel for driving both traffic and revenue.
+
+---
+
+### 6️⃣ Lowest Marketing Channel Revenue
+📢 Channel: **Referral**  
+💰 Revenue Generated: **R226,816**
+
+💡 Observation: Referral traffic contributes the lowest revenue among marketing sources.
+
+---
+
+### 7️⃣ Order Status Distribution
+
+| Status | Orders |
+|------|------|
+| Cancelled | 250 |
+| Delivered | 231 |
+| Pending | 237 |
+| Returned | 247 |
+| Shipped | 235 |
+
+💡 Observation: The distribution of order statuses suggests operational improvements may be required to reduce cancellations and returns.
+
+---
+
+### 8️⃣ Monthly Revenue Trend
+
+📅 Highest Revenue Month: **June**  
+💰 Revenue Generated: **R170,616**
+
+📅 Lowest Revenue Month: **November**  
+💰 Revenue Generated: **R75,493**
+
+💡 Observation: Sales show seasonal fluctuations, with revenue peaking in mid-year.
+
+---
+
+### 9️⃣ Coupon Performance
+
+| Coupon | Revenue |
+|------|------|
+| Freeship | R335,036 |
+| No Coupon | R322,401 |
+| Save10 | R304,840 |
+| Winter15 | R302,483 |
+
+💡 Observation: The **Freeship coupon generated the highest revenue**, suggesting that free shipping incentives are effective at encouraging purchases.
 
 ---
 
 # 💡 Business Recommendations
 
-Based on the insights, the following strategic actions are recommended:
+Based on the insights, the following strategic recommendations are suggested:
 
-✔ Increase inventory for high-demand products such as tablets and monitors.  
-✔ Strengthen digital marketing campaigns on Instagram and Google.  
-✔ Improve delivery processes to increase delivery rate.  
-✔ Encourage online payment adoption for smoother transactions.  
-✔ Use targeted coupon strategies to improve conversion rates.
+✔ Increase inventory for high-demand products such as **chairs and printers**.  
+
+✔ Invest more in **Instagram marketing campaigns** since it generates the highest revenue and orders.  
+
+✔ Promote **digital payment methods** such as credit cards and online payments to streamline checkout processes.  
+
+✔ Implement strategies to **reduce order cancellations and returns**, improving operational efficiency.  
+
+✔ Expand **free shipping promotions** since they generate strong revenue performance.  
+
+✔ Plan **marketing campaigns around peak sales months** such as June to maximize revenue.
 
 ---
 
 # 🧠 Skills Demonstrated
 
+This project demonstrates key data analyst skills including:
+
 • Data Cleaning & Transformation  
 • Excel Data Analysis  
+• Pivot Table Development  
 • Exploratory Data Analysis  
-• Pivot Table Analysis  
 • Business Intelligence Reporting  
 • Data Visualization  
-• Dashboard Development  
+• Dashboard Design  
 
 ---
 
 # 🏁 Conclusion
 
-This project demonstrates how **Microsoft Excel can transform raw e-commerce order data into actionable insights**.
+This project demonstrates how **Microsoft Excel can transform raw e-commerce transaction data into actionable business insights**.
 
-By combining **data cleaning, analysis, and visualization**, the project showcases essential skills required for **data analyst roles**.
+By combining **data cleaning, pivot table analysis, and interactive dashboard visualization**, the project highlights essential skills required for real-world **data analyst roles**.
 
 ---
 
 # 🎓 Project Outcome
 
-This project showcases the ability to convert raw transaction data into **structured analytics and strategic business insights**.
-
-It reflects real-world data analyst responsibilities including:
-
-• Data validation  
-• KPI monitoring  
-• performance reporting  
-• dashboard development  
-• strategic recommendation development  
+This project showcases the ability to transform raw business data into structured analytics insights and build interactive dashboards that support strategic decision-making.
 
 ---
 
 # 👤 Author
 
-**Thovhakale Ovious Riphuluse**  
-Data Analytics Portfolio Project
+**Thovhakale Ovious Riphuluse**
+
+Aspiring Data Analyst  
+Excel | SQL | Data Visualization | Business Intelligence
